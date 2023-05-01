@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(0, 0, 255, 0.624);
+}
+
+.container {}
+
+.row {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    margin-left: 35%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+.supliers {
+    width: 200%;
+    border-radius: 20px;
+    padding-left: 30%;
+    border: none;
+    padding-right: 30%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: rgba(128, 128, 128, 0.624);
+}
+
+.edit {
+    width: 300%;
+    border: none;
+    border-radius: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    background-color: rgba(128, 128, 128, 0.624);
+}
